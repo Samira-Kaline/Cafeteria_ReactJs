@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import data from '../models/foods';
 
 import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.bundle';
+import { Button,Row,Container } from 'react-bootstrap';
 
 function App() {
   const [foods, setFoods] = useState(data);
@@ -22,18 +22,23 @@ function App() {
   }
 
   return (
-    <div className="container">
-      <h1>Menu</h1>
-      <button type="button" className=" btn btn-secondary round-circle mr-4 font-weight-bold" onClick={handleClick}
-      ref={buttonAdd}>+</button>
-
-      <section className="card-deck my-3">
+    <Container>
+      <h1 className="mt-5 text-center">Menu</h1>
+        <div className="text-end mb-2">
+        <Button  
+        variant="secondary" 
+        className="rounded-circle mr-4 font-weight-bold" 
+        onClick={handleClick}
+        ref={buttonAdd}
+        >+</Button>
+      </div>      
+      <Row  xs={1} md={2} className="g-4 align-self-stretch">
         {foods.map((food) => (
           <Food food={food} key={food.id}/>
         ))}
-      </section>
+      </Row>
 
-    </div>
+    </Container>
 
   );
 }
