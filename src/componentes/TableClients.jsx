@@ -4,6 +4,7 @@ import {SlMagnifier} from 'react-icons/sl';
 import DeleteClient from './DeleteCliente';
 import UpdateClient from './UpdateClient';
 
+//Tabela de Cliente
 const TableClient = () => {
   const [nome, setNome] = useState('');
 
