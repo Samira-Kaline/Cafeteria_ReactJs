@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Button,Table,Form,Col,Container,Row} from 'react-bootstrap';
-import {SlMagnifier} from 'react-icons/sl';
-import DeleteClient from './DeleteCliente';
-import UpdateClient from './UpdateClient';
+import {TbTrash,TbPencil} from 'react-icons/tb';
+import {SlMagnifier} from 'react-icons/sl'
 
 //Tabela de Cliente
 const TableClient = () => {
@@ -65,8 +64,18 @@ const TableClient = () => {
             >
               <SlMagnifier size={20}/>
             </Button>
-            <DeleteClient />
-            <UpdateClient/>
+            <Button 
+            variant='outline-danger'
+            className='float-end mx-1'
+            >
+              <TbTrash size={20}/>
+            </Button>
+            <Button 
+            variant='outline-dark '
+            className='float-end mx-1'
+            >
+              <TbPencil size={20}/>
+            </Button>
           </Col>
         </Row>
       </Container>
