@@ -1,11 +1,9 @@
 import Food from "./Food";
 import { useRef, useState } from "react";
 import data from '../models/foods';
-
-import 'bootstrap/dist/css/bootstrap.css';
 import { Button,Row,Container } from 'react-bootstrap';
 
-function App() {
+function Foods() {
   const [foods, setFoods] = useState(data);
   const buttonAdd = useRef(null);
 
@@ -43,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Foods;
