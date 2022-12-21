@@ -1,0 +1,160 @@
+{
+  "produtos": [
+    {
+      "id": 0,
+      "name": "Hambúrguer",
+      "image": "imgs/hamburguer.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Suco",
+      "image": "imgs/suco.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Café",
+      "image": "imgs/café.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Sanduíche",
+      "image": "imgs/sanduiche.jpg"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 0,
+      "name": "Alysson Pereira",
+      "email": "ap@gmail.com",
+      "birthdate": "2004-05-19",
+      "cep": "58200-000"
+    },
+    {
+      "id": 1,
+      "name": "Lilia Maria",
+      "email": "lm@gmail.com",
+      "birthdate": "2001-06-14",
+      "cep": "58200-000"
+    },
+    {
+      "id": 2,
+      "name": "Maria Lais",
+      "email": "ml@gmail.com",
+      "birthdate": "1996-02-02",
+      "cep": "58200-000"
+    },
+    {
+      "id": 3,
+      "name": "Euridyce Karla",
+      "email": "ek@gmail.com",
+      "birthdate": "2001-05-19",
+      "cep": "58200-000"
+    },
+    {
+      "name": "João Paulo Pereira de Lima",
+      "email": "joao.lima.8@academico.ifpb.edu.br",
+      "birthdate": "2022-11-18",
+      "cep": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "",
+      "cep": "",
+      "id": 5
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "2002-10-10",
+      "cep": "",
+      "id": 6
+    },
+    {
+      "name": "a",
+      "email": "a@",
+      "birthdate": "2022-12-08",
+      "cep": "a",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "",
+      "cep": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "",
+      "cep": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "",
+      "cep": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "email": "",
+      "birthdate": "",
+      "cep": "",
+      "id": 11
+    },
+    {
+      "name": "aa",
+      "email": "a@a",
+      "birthdate": "2022-11-30",
+      "cep": "s",
+      "id": 12
+    },
+    {
+      "name": "s",
+      "email": "sa@a",
+      "birthdate": "2022-12-08",
+      "cep": "s",
+      "id": 13
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": 0,
+      "name": "MixMateus"
+    },
+    {
+      "id": 1,
+      "name": "Rede Paraiba"
+    },
+    {
+      "id": 2,
+      "name": "Atacadão"
+    },
+    {
+      "id": 3,
+      "name": "Açaí"
+    }
+  ],
+  "entregadores": [
+    {
+      "id": 0,
+      "name": "Pedro Joaquim"
+    },
+    {
+      "id": 1,
+      "name": "Diego Fernandes"
+    },
+    {
+      "id": 2,
+      "name": "Matheus Cesar"
+    },
+    {
+      "id": 3,
+      "name": "Iago Bruno"
+    }
+  ]
+}
