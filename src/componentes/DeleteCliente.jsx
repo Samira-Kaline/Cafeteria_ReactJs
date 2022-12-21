@@ -3,6 +3,7 @@ import {Button,Modal} from 'react-bootstrap';
 import TableClients from './TableClients';
 
 const DeleteClient = () =>{
+
   const [id,setId] = useState();
 
   const handleDelete = () =>{

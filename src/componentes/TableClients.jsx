@@ -3,6 +3,7 @@ import {Button,Table,Form,Col,Container,Row} from 'react-bootstrap';
 import {TbTrash,TbPencil} from 'react-icons/tb';
 import {SlMagnifier} from 'react-icons/sl'
 
+//Tabela de Cliente
 const TableClient = () => {
   const [nome, setNome] = useState('');
 
